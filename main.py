@@ -24,7 +24,7 @@ from fabric.utils import (
 class MyStatusBar(WaylandWindow):
     def __init__(self, **kwargs):
         super().__init__(
-            layer="top",
+            layer="background",
             anchor="left top right",
             exclusivity="auto",
             **kwargs
