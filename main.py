@@ -38,7 +38,7 @@ class MyStatusBar(WaylandWindow):
         
         # Add time widget
         self.time = DateTime(('%H:%M', '%I:%M %p'), interval=5000) 
-        self.date = DateTime(('%d/%m/%Y', '%d of %B %Y, %A'), interval=3600000)
+        self.date = DateTime(('%d/%m/%Y', '%d %B %Y, %A'), interval=3600000)
         self.sep = Label(" | ")
 
         # Right-Side
