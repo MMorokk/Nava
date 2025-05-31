@@ -1,6 +1,10 @@
 @import "themes/current.css";
 
 * {
+    all: unset;
+}
+
+* {
     background-color: var(--base);
     color: var(--text);
     border-style: none;
@@ -11,7 +15,8 @@
     border-style: solid;
     border-width: 2px;
     border-radius: 20%;
-    opacity: 50;
+    padding-left: 5pt;
+    padding-right: 5pt;
 }
 
 #workspaces>button.active {
