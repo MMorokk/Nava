@@ -52,7 +52,7 @@ class MyStatusBar(WaylandWindow):
                     regex=True,
                 ),
             ),
-            )
+        )
         
         self.system_label = Label("Tray PlaceHolder")
         
